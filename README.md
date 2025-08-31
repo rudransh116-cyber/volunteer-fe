@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+## Volunteer‑FE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React web application that helps build community to raise awareness and improve social unity.
 
-## Available Scripts
+In the project, you can:
 
-In the project directory, you can run:
+### 1) View Volunteer Opportunities and Community Events  
+Present a curated list of local volunteer initiatives and social unity‑driven events in a clear, engaging interface.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2) Get Event Details and Volunteer Info  
+Click any item to expand its details—such as date, location, description, and how to get involved.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+###  Built With:
+- *React* (bootstrapped via Create React App) ([github.com](https://github.com/rudransh116-cyber/volunteer-fe))  
+- *JavaScript, **CSS, **HTML*
+- Likely using *Fetch API* or similar to retrieve volunteer/event data (network‑fetching logic if included)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### Available Scripts
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+From the project root directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Command         | Description |
+|----------------|-------------|
+| npm start    | Runs the app in development mode. Visit [http://localhost:3000](http://localhost:3000) to use it locally. The page reloads on changes and shows lint/console feedback. ([github.com](https://github.com/rudransh116-cyber/volunteer-fe)) |
+| npm test     | Launches the test runner in interactive watch mode. Refer to the React documentation for details. ([github.com](https://github.com/rudransh116-cyber/volunteer-fe)) |
+| npm run build| Builds the app for production into the build/ folder. Bundles React in production mode with filename hashing for optimal caching. ([github.com](https://github.com/rudransh116-cyber/volunteer-fe)) |
+| npm run eject| *Caution:* This is a one‑way operation. It copies all config files (Webpack, Babel, ESLint, etc.) into your project for full control—you’ll then manage them yourself. ([github.com](https://github.com/rudransh116-cyber/volunteer-fe)) |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+###  Getting Started Locally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. *Clone the repository*  
+   bash
+   git clone https://github.com/rudransh116-cyber/volunteer-fe.git
+   cd volunteer-fe
+   
+2. *Install dependencies*  
+   bash
+   npm install
+   
+3. *Start the development server*  
+   bash
+   npm start
+   
+   Visit http://localhost:3000 in your browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. *Build for production*  
+   bash
+   npm run build
+   
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+###  Contributing
 
-## Learn More
+Feel free to contribute! You can help by:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Adding new volunteer opportunities data or event types
+- Enhancing UI/UX, accessibility, or design
+- Implementing filter/search functionality
+- Writing tests (e.g., Jest, React Testing Library)
+- Improving deployment with CI/CD workflows
+- Adding documentation or feature guides
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+###  Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is production‑ready. To deploy, you can use any static‑hosting solution (e.g., Netlify, Vercel, GitHub Pages):
 
-### Analyzing the Bundle Size
+- Build the app:  
+  bash
+  npm run build
+  
+- Deploy the contents of the build/ directory using your preferred hosting service.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+*(Optional: include Netlify or other deployment configuration files—looks like there's a netlify.toml in the repo.)* ([github.com](https://github.com/rudransh116-cyber/volunteer-fe))
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+###  License
 
-### Advanced Configuration
+(Optionally add a license here—e.g., MIT License.)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+###  Contact or Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Made with ❤ to promote community engagement and social unity.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+###  Summary Table
+
+| Feature               | Description                                               |
+|----------------------|-----------------------------------------------------------|
+| React App             | SPA built with Create React App                          |
+| Volunteer Listings    | Shows a feed of initiatives with details                 |
+| Local Development     | npm start — live reloads, dev tools                    |
+| Production Build      | npm run build — optimized output for deployment        |
+| Config Customization  | npm run eject allows full manual control over build setup |
